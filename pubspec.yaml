@@ -1,0 +1,31 @@
+name: expense_trackerapp
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^4.0.3
+  table_calendar: ^3.0.0
+  sqflite: any
+  path: any
+  fl_chart: ^0.40.0
+  intl: ^0.18.1
+  # Update this to the latest stable version of fl_chart
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.jpg
